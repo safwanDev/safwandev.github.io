@@ -4,7 +4,10 @@ body{
 }
 
 h1{
-    color: #a5bfe9;
+    color: #a5bfe9 ;
+}
+p b{
+    font-weight : 2em  !important;
 }
 h2{
     color:#a5bfe9 ;
@@ -12,4 +15,16 @@ h2{
 ol li a {
     text-decoration: none;
     color: red;
+}
+p#intro{
+    transform: scale(1,-1);
+
+}
+
+p#intro::first-letter{
+    font-weight: bold;
+}
+p#sub{
+
+    color: yellow!important;
 }
