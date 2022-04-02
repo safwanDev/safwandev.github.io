@@ -16,21 +16,55 @@
      <div class="container">
 
      <div class="left_flex_item">
-
+      <p><a href="#">Registor now while seats are available</a></p>
       <div class="form_control"> <label for="first-name" >First Name:<span>*</span></label>  <input type="text"id="first-name" name="first_name" required></div>
       <div class="form_control"> <label for="last-name" >Last Name:<span>*</span></label>  <input type="text"id="last-name" name="last_name" required></div>
       <div class="form_control"> <label for="company-name" >Insurance/Comapany:<span>*</span></label>  <input type="text"id="company-name" name="last_name" required></div>
       <div class="form_control"> <label for="address" >Address:<span>*</span></label><textarea type="text"id="address" name="Address" rows="4" required> </textarea></div>
       <div class="form_control"> <label for="city" >City:<span>*</span></label><input type="text"id="city" name="City" rows="4" required></div>
-       
-     
-    
+      <div class="form_control"> <label for="province" >State/Province/Region:</label><select id="province" name="Province" >
+      <option value="">-Select-</option>      
+      </select></div>
+      <div class="form_control"> <label for="country" >Country:</label><select id="country" name="Country" >
+      <option value="">-Select-</option>      
+      </select></div>
+      <div class="form_control"> <label for="email" >Email:<span>*</span></label>  <input type="text"id="email" name="Email" required></div>
+      <div class="form_control"> <label for="phone" >Phone:<span>*</span></label>  <input type="text"id="phone" name="Phone" required></div>
+      </div>
+
+      <div class="right_flex_item">
+         <p><a href="#">Lunch</a></p>
+         <div class="form_control">
+            <label for="meal">Meal Preference</label>
+            <select id="meal">
+                <option>Vegetarian</option>
+            </select>
+        </div>
+        <a class="payment_details" href="#">Payment Details</a>
+        <div class="form_control">
+            <label>Payment mode</label>
+            <div class="form-group">
+                <div><input type="checkbox" value="cash" /> Cash</div>
+                <div><input type="checkbox" value="cheque"/> Cheque</div>
+                <div><input type="checkbox" value="draft"/> Demand Draft</div>
+            </div>
+        </div>
+        <div class="form_control">
+            <label for="cheque-no">DD/Cheque No</label><input id="cheque-no" type="text" name="company_instituation" />
+        </div>
+        <div class="form_control">
+            <label for="drawn-on">Drawn On (Bank Name)</label><input id="drawn-on" type="text" name="company_instituation" />
+        </div>
+        <div class="form_control">
+            <label for="payable-at">Payable At</label><input id="payable-at" type="text" name="company_instituation" />
+        </div>
     </div>
 
-     <div class="right_flex_item">
-         RIGHT
+
      </div>
      </div>
+
+
      <div class="footer">
         <button>submit</button><button>Reset</button>
   

@@ -24,7 +24,7 @@ p#intro{
 p#intro::first-letter{
     font-weight: bold;
 }
-p#sub{
+p#sub1,#sub2,#sub3{
 
     color: yellow!important;
 }

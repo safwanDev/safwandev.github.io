@@ -19,26 +19,30 @@ background-color: aquamarine;
     border: 2px solid black;
     
 }
-.rigth_flex_item{
+.right_flex_item{
     padding-left: 20px;
-    background-color: gray; 
     border: 1px solid black;
     height: 100vh;
     width: 50%;
 
 }
+select{
+    width:170px ;
+}
+.payment_details{
+  padding-bottom: 10px;
+}
 .form_control{
 margin-bottom: 20px;
+padding-top: 10px;
 display: flex;
 }
 .form_control label{
-    width: 50%;
+    width: 40%;
 }
 
 .left_flex_item{
-
-   padding-left: 20px;
-    background-color: gray; 
+    padding-left: 20px; 
     flex-direction: column;
     padding-top: 10px;
     border: 1px solid black;
@@ -48,6 +52,8 @@ display: flex;
 }
 
 .footer{
+    padding-top: 20px;
     background-color: gray;
     text-align: center;
+    height: 50px;
 }
